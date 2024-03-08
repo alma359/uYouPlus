@@ -66,7 +66,7 @@ jobs:
         with:
           repository: theos/theos
           ref: master
-          path: theos
+          path: 4bcc52914e0eeca719288522938185decaa8a1cb
           submodules: recursive
       
       - name: Caching
