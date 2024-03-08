@@ -84,6 +84,7 @@ jobs:
           git clone -n --depth=1 --filter=tree:0 https://github.com/theos/sdks.git && cd sdks
           git sparse-checkout set --no-cone iPhoneOS16.5.sdk
           git checkout
+          mkdir /Users/runner/work/uYouPlus/uYouPlus/theos/sdks
           mv *.sdk $THEOS/sdks
         env:
           THEOS: ${{ github.workspace }}/theos
